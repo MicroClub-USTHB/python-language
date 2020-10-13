@@ -9,7 +9,7 @@ print(expression)
 # operands = [re.findall(r'\d+', expression)]
 # operators = [re.findall(r'\D+', expression)]
 
-
+#function to evalute the first operation
 def evaluate(liste):
     var = deque(liste)
     result = 0
