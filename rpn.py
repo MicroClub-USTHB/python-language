@@ -10,7 +10,7 @@ print(expression)
 # operators = [re.findall(r'\D+', expression)]
 
 
-def eval(liste):
+def evaluate(liste):
     var = deque(liste)
     result = 0
 
@@ -31,5 +31,5 @@ def eval(liste):
 
 
 while (len(expression) > 1):
-    expression = eval(expression)
+    expression = evaluate(expression)
 print(expression[0])
