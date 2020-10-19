@@ -1,6 +1,6 @@
 
-import os, sys, re
-#exo1
+import os, sys
+
 def f(directory):
 	for i in os.listdir(directory):
 		i=directory+"/"+i
