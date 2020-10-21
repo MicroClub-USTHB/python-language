@@ -1,4 +1,4 @@
-# Text-Search-Project
+# Display a Directory Content on Bash ! 
 
 *Beginner friendly project*
 
